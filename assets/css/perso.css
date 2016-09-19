@@ -6,3 +6,12 @@
     border-radius: 50%;
     width: 25%;
 }
+
+.ml-10 {
+    margin-left: 10px !important;
+}
+
+.mt-100 {
+    margin-top: 100px !important;
+
+}
