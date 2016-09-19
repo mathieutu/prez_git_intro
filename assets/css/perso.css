@@ -1,0 +1,8 @@
+.reveal small * {
+    vertical-align: middle;
+}
+
+.profile_img {
+    border-radius: 50%;
+    width: 25%;
+}
