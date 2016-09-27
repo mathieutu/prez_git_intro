@@ -1,17 +1,44 @@
+.reveal small.legend {
+  font-size: 0.4em;
+  display: block;
+  margin-top: -20px; }
 .reveal small * {
-    vertical-align: middle;
-}
+  vertical-align: middle; }
+.reveal .profile_img {
+  border-radius: 50%;
+  width: 25%; }
+.reveal .ml-10 {
+  margin-left: 10px; }
+.reveal .mt-100 {
+  margin-top: 100px; }
+.reveal .horizontal_list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center; }
+  .reveal .horizontal_list li {
+    display: inline;
+    text-decoration: none;
+    padding: .2em .5em;
+    color: #fff;
+    background-color: #a23c;
+    border-radius: .2em;
+    margin: .5em auto; }
+    .reveal .horizontal_list li.arrow {
+      background-color: unset;
+      display: inline-block;
+      font: normal normal normal 1em FontAwesome;
+      font-size: inherit;
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      padding: 0 0.2em; }
+      .reveal .horizontal_list li.arrow::before {
+        content: "\f061";
+        background-color: unset; }
+.reveal img.transparent {
+  background: none;
+  border: none;
+  box-shadow: none; }
 
-.profile_img {
-    border-radius: 50%;
-    width: 25%;
-}
-
-.ml-10 {
-    margin-left: 10px !important;
-}
-
-.mt-100 {
-    margin-top: 100px !important;
-
-}
+/*# sourceMappingURL=perso.css.map */

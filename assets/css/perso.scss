@@ -1,0 +1,67 @@
+.reveal {
+    small {
+        &.legend {
+            font-size: 0.4em;
+            display: block;
+            margin-top: -20px;
+        }
+        * {
+            vertical-align: middle;
+        }
+    }
+
+    .profile_img {
+        border-radius: 50%;
+        width: 25%;
+    }
+
+    .ml-10 {
+        margin-left: 10px;
+    }
+
+    .mt-100 {
+        margin-top: 100px;
+    }
+
+    .horizontal_list {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        text-align: center;
+
+        li {
+            display: inline;
+            text-decoration: none;
+            padding: .2em .5em;
+            color: #fff;
+            background-color: #a23c;
+            border-radius: .2em;
+            margin: .5em auto;
+
+            &.arrow {
+                background-color: unset;
+                display: inline-block;
+                font: normal normal normal 1em FontAwesome;
+                font-size: inherit;
+                text-rendering: auto;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+                padding: 0 0.2em;
+
+                &::before {
+                    content: "\f061";
+                    background-color: unset;
+                }
+            }
+        }
+    }
+
+    img.transparent {
+        background: none;
+        border: none;
+        box-shadow: none;
+    }
+}
+
+
+
