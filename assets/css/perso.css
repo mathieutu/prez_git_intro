@@ -20,8 +20,8 @@
     display: inline;
     text-decoration: none;
     padding: .2em .5em;
-    color: #fff;
-    background-color: #a23c;
+    color: white;
+    background-color: rgba(170, 34, 51, 0.8);
     border-radius: .2em;
     margin: .5em auto; }
     .reveal .horizontal_list li.arrow {
